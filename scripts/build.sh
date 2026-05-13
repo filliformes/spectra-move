@@ -25,6 +25,7 @@ $CC -O2 -shared -fPIC -ffast-math \
 
 # Copy module files
 cp "$PROJECT_DIR/module.json" "$OUT_DIR/"
+[ -f "$SRC_DIR/help.json" ] && cp "$SRC_DIR/help.json" "$OUT_DIR/"
 
 echo "=== Build complete: $OUT_DIR/$MODULE_ID.so ==="
 ls -la "$OUT_DIR/"

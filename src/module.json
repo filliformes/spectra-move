@@ -2,7 +2,7 @@
     "id": "spectra",
     "name": "Spectra",
     "abbrev": "SPCTRA",
-    "version": "0.2.0",
+    "version": "0.2.1",
     "description": "Multiband spectral resonator with pitch tracking and scale quantization",
     "author": "fillioning",
     "dsp": "spectra.so",

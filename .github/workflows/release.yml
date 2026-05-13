@@ -35,6 +35,7 @@ jobs:
             mkdir -p /build/dist/spectra
             aarch64-linux-gnu-gcc -O2 -shared -fPIC -ffast-math -o /build/dist/spectra/spectra.so /build/src/dsp/spectra.c -lm
             cp /build/src/module.json /build/dist/spectra/module.json
+            if [ -f /build/src/help.json ]; then cp /build/src/help.json /build/dist/spectra/; fi
             cd /build/dist && tar -czf spectra-module.tar.gz spectra/
           "
 

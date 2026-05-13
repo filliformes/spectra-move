@@ -1,0 +1,133 @@
+{
+  "title": "Spectra",
+  "children": [
+    {
+      "title": "About",
+      "lines": [
+        "Multiband spectral",
+        "resonator. Audio FX.",
+        "",
+        "Pitch-tracking SVF",
+        "resonator bank with",
+        "scale quantizer, 12",
+        "scales x 12 roots,",
+        "chord drift.",
+        "",
+        "Analyses input audio",
+        "(pitch, onset, noise",
+        "ratio) and excites",
+        "scale-quantized",
+        "bandpass filters."
+      ]
+    },
+    {
+      "title": "Page: Main",
+      "lines": [
+        "K1 Onset sensitivity",
+        "    transient gate",
+        "    feeds excitation",
+        "K2 Frequency",
+        "    centre pitch of",
+        "    resonator bank",
+        "K3 Brightness",
+        "    HF tilt of",
+        "    resonator output",
+        "K4 Timbre",
+        "    resonator Q",
+        "    sharp<>wide",
+        "K5 Decay",
+        "    ring time",
+        "K6 Root Note",
+        "    12 roots",
+        "K7 Scale",
+        "    12 scales:",
+        "    Maj, Min, Penta,",
+        "    Blues, Dorian...",
+        "K8 Dry/Wet Mix"
+      ]
+    },
+    {
+      "title": "Page: Control",
+      "lines": [
+        "K1 Chord Drift",
+        "    slow chord motion",
+        "K2 Resonators",
+        "    1-12 simultaneous",
+        "K3 Octave Range",
+        "    bank spread in",
+        "    octaves",
+        "K4 Compress",
+        "    post bank limit",
+        "K5 Pre Gain",
+        "K6 Post Gain",
+        "K7 HPF",
+        "K8 LPF"
+      ]
+    },
+    {
+      "title": "Page: Motion",
+      "lines": [
+        "K1 Arp Rate",
+        "K2 Arp Pattern",
+        "    Up / Down /",
+        "    UpDown / Random",
+        "K3 Arp Sync",
+        "    Free / Synced",
+        "K4 Drift analog",
+        "    pitch wander",
+        "K5 Motion Rate",
+        "    macro LFO",
+        "K6 Motion Depth",
+        "K7 Motion Shape",
+        "    Sine / Tri /",
+        "    Saw / Square /",
+        "    Random",
+        "K8 Scoop",
+        "    pitch slide on",
+        "    note onset"
+      ]
+    },
+    {
+      "title": "Page: Patch",
+      "lines": [
+        "K1 Preset",
+        "K2 Rnd Preset",
+        "    random factory",
+        "K3 Rnd Spectra",
+        "    randomize bank",
+        "    settings",
+        "K4 Rnd Motion",
+        "    randomize arp +",
+        "    motion params",
+        "K5 Rnd Pan",
+        "K6 Stereo Width",
+        "K7-K8 see Main"
+      ]
+    },
+    {
+      "title": "Tips",
+      "lines": [
+        "Feed drums with low",
+        " onset threshold:",
+        " each hit excites",
+        " the bank like a",
+        " tuned ringing tail.",
+        "",
+        "Vocal input with",
+        " high Resonators and",
+        " long Decay: harmonic",
+        " stretching, voices",
+        " smear into chords.",
+        "",
+        "Pair Arp Sync with",
+        " host transport for",
+        " rhythmic shimmer",
+        " on sustained sounds.",
+        "",
+        "Scale = Free skips",
+        " quantization (free",
+        " continuous pitch)."
+      ]
+    }
+  ]
+}
