@@ -1286,10 +1286,10 @@ static int get_param(void *instance, const char *key, char *buf, int buf_len) {
             "{\"key\":\"motion_shape\",\"name\":\"Mot Shape\",\"type\":\"enum\",\"options\":[\"Sine\",\"Triangle\",\"Square\",\"S&H\"]},"
             "{\"key\":\"scoop\",\"name\":\"Scoop\",\"type\":\"float\",\"min\":0,\"max\":1,\"step\":0.01},"
             "{\"key\":\"preset\",\"name\":\"Preset\",\"type\":\"enum\",\"options\":[\"Bell\",\"Pad\",\"Arp Up\",\"Arp Rnd\",\"Drifter\",\"Shimmer\",\"Drone Bass\",\"Tremolo\",\"Bells\",\"Scooped\",\"Evolving\",\"Stutter\",\"Resonant\",\"Wavy\",\"Pulsing\",\"Minimal\",\"Lush\",\"Crisp\",\"Glitch\",\"Warm\",\"Bright\",\"Deep\",\"Airy\",\"Metallic\",\"Modulating\",\"Sparse\",\"Liquid\",\"Rhythmic\",\"Spacious\",\"Chaos\"]},"
-            "{\"key\":\"rnd_preset\",\"name\":\"Rnd Preset\",\"type\":\"int\",\"min\":0,\"max\":1,\"step\":1},"
-            "{\"key\":\"rnd_spectra\",\"name\":\"Rnd Spectra\",\"type\":\"int\",\"min\":0,\"max\":1,\"step\":1},"
-            "{\"key\":\"rnd_motion\",\"name\":\"Rnd Motion\",\"type\":\"int\",\"min\":0,\"max\":1,\"step\":1},"
-            "{\"key\":\"rnd_pan\",\"name\":\"Rnd Pan\",\"type\":\"int\",\"min\":0,\"max\":1,\"step\":1},"
+            "{\"key\":\"rnd_preset\",\"name\":\"Rnd Preset\",\"type\":\"int\",\"min\":0,\"max\":1,\"step\":1,\"access\":\"write\"},"
+            "{\"key\":\"rnd_spectra\",\"name\":\"Rnd Spectra\",\"type\":\"int\",\"min\":0,\"max\":1,\"step\":1,\"access\":\"write\"},"
+            "{\"key\":\"rnd_motion\",\"name\":\"Rnd Motion\",\"type\":\"int\",\"min\":0,\"max\":1,\"step\":1,\"access\":\"write\"},"
+            "{\"key\":\"rnd_pan\",\"name\":\"Rnd Pan\",\"type\":\"int\",\"min\":0,\"max\":1,\"step\":1,\"access\":\"write\"},"
             "{\"key\":\"stereo_width\",\"name\":\"Stereo Width\",\"type\":\"float\",\"min\":0,\"max\":1,\"step\":0.01}"
             "]");
     }
